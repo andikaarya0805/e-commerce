@@ -1,0 +1,16 @@
+/* resources/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahkan style custom kamu di bawah ini jika diperlukan */
+
+/* Contoh: Custom warna teks */
+.text-primary {
+  @apply text-blue-600;
+}
+
+/* Contoh: Custom tombol */
+.btn {
+  @apply px-4 py-2 rounded-lg font-semibold text-white bg-blue-500 hover:bg-blue-600;
+}
